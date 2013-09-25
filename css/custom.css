@@ -1,0 +1,493 @@
+/*My customised styles*/
+
+/*Extra small viewport media queries*/
+@media (max-width: 767px) {
+
+a
+{
+
+        color: #f9f9f9;
+}
+
+a:hover
+{
+        text-decoration: none;
+}
+
+p
+{
+        font-size: 0.90em;
+}
+
+h1
+{
+        font-size: 0.90em;
+}
+
+body
+{
+        right:0;
+        left:0;
+        margin-right: 0px;
+}
+
+
+.banner
+{       
+        background-image: url('../img/awe.jpg');
+        margin-top: 40px;
+        padding-bottom:0px;
+        height:200px;
+
+}
+
+
+.row 
+{      
+        margin-right: 0px;
+        margin-left: 0px;
+}
+
+blockquote
+{       
+        font-size:0.75em;
+        text-align: center;
+        margin-top:40px;
+        color: #f9f9f9;
+}
+
+.container
+{
+
+}
+
+
+.intro
+{     
+        min-height: 100px;
+}
+
+.education
+{
+        min-height: 100px;
+        color: #f9f9f9;
+        background-color: #303030;
+}
+
+.project
+{
+        min-height: 100px;
+}
+
+.contact
+{
+        min-height: 100px;
+        color: #f9f9f9;
+        background-color: #303030;
+}
+
+section
+{   
+        padding-top: 5px;
+        font-size:0.85em;
+
+}
+
+
+.icon-3x
+{
+        padding-right:0px;
+        font-size: 1.5em;
+}
+
+.icon-quote-left, .icon-quote-right
+{
+        font-size: 0.85em;
+}
+
+.social
+{
+        color: #f9f9f9;
+
+}
+
+.col-sm-3 
+{
+        width: 15%;
+}
+
+.modal-footer 
+{       
+        font-size: 0.75em;
+        margin-top:0px;
+        margin-bottom:0px;
+        border-top: 1px solid #e5e5e5;
+}  
+
+.right 
+{
+
+        text-align:right;
+}
+
+
+footer
+{
+        background-color:#303030;
+        color: #f9f9f9;
+}
+
+
+
+}
+
+
+
+
+/*small view media queries*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+a
+{
+
+        color: #f9f9f9;
+}
+a:hover
+{
+        text-decoration: none;
+}
+
+body
+{
+        right:0;
+        left:0;
+        margin-right: 0px;
+}
+
+.banner
+{       
+        background-image: url('../img/awe.jpg');
+        margin-top: 40px;
+        padding-bottom:0px;
+        height:300px;
+
+}
+
+
+.row 
+{      
+        margin-right: 0px;
+        margin-left: 0px;
+}
+
+blockquote
+{       
+        text-align: left;
+        margin-top:40px;
+        color: #f9f9f9;
+}
+
+.container
+{
+
+}
+
+
+.intro
+{     
+        min-height: 150px;
+}
+
+.education
+{
+        min-height: 150px;
+        color: #f9f9f9;
+        background-color: #303030;
+}
+
+.project
+{
+        min-height: 150px;
+}
+
+.contact
+{
+        min-height: 150px;
+        color: #f9f9f9;
+        background-color: #303030;
+}
+
+section
+{   
+        padding-top: 5px;
+        font-size:1em;
+
+}
+
+
+.icon-3x
+{
+        padding-right:0px;
+        font-size: 3.5em;
+}
+
+.icon-quote-left, .icon-quote-right
+{
+        font-size: 0.85em;
+}
+
+.col-sm-3 
+{
+        width: 15%;
+}
+
+.modal-footer 
+{       
+        font-size: 0.75em;
+        margin-top:0px;
+        margin-bottom:0px;
+        border-top: 1px solid #e5e5e5;
+}  
+
+.right 
+{
+
+        text-align:right;
+}
+
+
+footer
+{
+        background-color:#303030;
+        color: #f9f9f9;
+}
+
+
+
+}
+
+
+/*medium view media queries*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+a
+{
+
+        color: #f9f9f9;
+}
+a:hover
+{
+        text-decoration: none;
+}
+
+body
+{
+        right:0;
+        left:0;
+        margin-right: 0px;
+}
+
+.banner
+{       
+        background-image: url('../img/awe.jpg');
+        margin-top: 40px;
+        padding-bottom:0px;
+        height:500px;
+
+}
+
+
+.row 
+{      
+        margin-right: 0px;
+        margin-left: 0px;
+}
+
+blockquote
+{       
+        text-align: left;
+        margin-top:40px;
+        color: #f9f9f9;
+}
+
+.container
+{
+
+}
+
+
+.intro
+{     
+        min-height: 300px;
+}
+
+.education
+{
+        min-height: 300px;
+        color: #f9f9f9;
+        background-color: #303030;
+}
+
+.project
+{
+        min-height: 300px;
+}
+
+.contact
+{
+        min-height: 300px;
+        color: #f9f9f9;
+        background-color: #303030;
+}
+
+section
+{   
+        padding-top: 15px;
+        font-size:1.2em;
+
+}
+
+
+.icon-3x
+{
+
+        font-size: 8em;
+}
+
+.modal-footer 
+{       
+        margin-top:0px;
+        margin-bottom:0px;
+        border-top: 1px solid #e5e5e5;
+}  
+
+.right 
+{
+        text-align:right;
+
+}
+
+
+footer
+{
+        background-color:#303030;
+        color: #f9f9f9;
+}
+
+
+
+}
+
+
+/*large view media queries*/
+
+@media (min-width: 1200px) {
+
+a
+{
+
+        color: #f9f9f9;
+}
+a:hover
+{
+        text-decoration: none;
+}
+
+body
+{
+        right:0;
+        left:0;
+        margin-right: 0px;
+}
+
+.banner
+{       
+        background-image: url('../img/awe.jpg');
+        margin-top: 40px;
+        padding-bottom:0px;
+        height:600px;
+
+}
+
+
+
+
+.row 
+{      
+        margin-right: 0px;
+        margin-left: 0px;
+}
+
+blockquote
+{       
+        text-align: left;
+        margin-top:40px;
+        color: #f9f9f9;
+}
+.container
+{
+
+}
+
+.intro
+{     
+        min-height: 400px;
+}
+
+.education
+{
+        min-height: 400px;
+        color: #f9f9f9;
+        background-color: #303030;
+}
+
+.project
+{
+        min-height: 400px;
+}
+
+.contact
+{
+        min-height: 400px;
+        color: #f9f9f9;
+        background-color: #303030;
+}
+
+section
+{   
+        padding-top: 20px;
+        font-size:1.5em;
+
+}
+
+.icon-3x
+{
+
+        font-size: 10em;
+}
+
+.modal-footer 
+{       
+        margin-top:0px;
+        margin-bottom:0px;
+        text-align:left;
+        border-top: 1px solid #e5e5e5;
+}  
+
+.right 
+{
+
+        text-align:right;
+}
+
+footer
+{
+        background-color:#303030;
+        color: #f9f9f9;
+}
+
+
+
+}
+/*Media queries end here
